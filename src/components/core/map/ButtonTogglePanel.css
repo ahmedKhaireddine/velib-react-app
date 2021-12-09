@@ -1,0 +1,28 @@
+.collapse-button-panel {
+  border: 0;
+  box-shadow: 0 1px 2px rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  width: 28px;
+  height: 57px;
+  cursor: pointer;
+  border-left: 1px solid #d4d4d4;
+  background: #fff 7px/7px 10px no-repeat;
+  z-index: 5;
+  top: 49%;
+  bottom: 51%;
+  position: absolute;
+  padding: 0;
+}
+
+.panel-expand {
+  transform: scaleX(-1);
+  border-radius: 8px 0 0 8px;
+}
+
+.panel-collapsed {
+  border-radius: 0 8px 8px 0;
+}
+
+.collapse-button-panel img {
+  width: 100%;
+  vertical-align: middle;
+}

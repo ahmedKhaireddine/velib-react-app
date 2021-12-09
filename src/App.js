@@ -1,11 +1,13 @@
-import './App.css';
+import { VelibContextProvider } from "./contexts/Velib"
+import Velib from "./components/Velib"
+import './App.css'
 
-function App() {
+const App = () => {
   return (
-    <div>
-      Velib app
-    </div>
+    <VelibContextProvider>
+      <Velib />
+    </VelibContextProvider>
   );
 }
 
-export default App;
+export default App

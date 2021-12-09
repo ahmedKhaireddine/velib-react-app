@@ -1,0 +1,11 @@
+/* .side-panel-container {
+  z-index: 5;
+  position: relative;
+} */
+
+.side-panel-box {
+  /* transition: display 1s; */
+  width: 40vw;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
